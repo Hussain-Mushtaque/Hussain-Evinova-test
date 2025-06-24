@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  server:
+    build: ./server
+    volumes:
+      - "/usr/app/node_modules"
+    environment:
+      - "NODE_ENV=development"
+    command: "npm run dev"
+  client:
+    build: ./client
+    volumes:
+      - "/usr/app/node_modules"
+    environment:
+      - "NODE_ENV=development"
+    command: "npm run dev"
+    stdin_open: true # Without this the container will exit with code 0
+    depends_on:
+      - server

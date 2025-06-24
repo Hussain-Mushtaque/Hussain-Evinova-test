@@ -79,6 +79,12 @@ web_modules/
 .env.production.local
 .env.local
 
+# Ignore configs and overrides
+config/custom.js
+*.override.js
+*.override.ts
+*.override.yml
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
