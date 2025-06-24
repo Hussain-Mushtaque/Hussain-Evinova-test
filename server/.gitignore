@@ -1,0 +1,33 @@
+# -------------------------------------------------------------
+# OSX directory properties files
+.DS_Store
+
+
+# Tool specific
+# -------------------------------------------------------------
+.vscode/
+
+
+
+# Temporary files
+# -------------------------------------------------------------
+temp/
+tmp/
+logs/
+*.tmp
+*.log*
+
+
+# Local files
+# -------------------------------------------------------------
+# Node modules
+node_modules/
+**/node_modules
+/dist
+
+# Ignore configs and overrides
+config/custom.js
+*.override.js
+*.override.ts
+*.override.yaml
+.env
