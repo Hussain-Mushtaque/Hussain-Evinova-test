@@ -1,0 +1,5 @@
+{
+  "testcafeTestRunner.workspaceRoot": "./client",
+  "testcafeTestRunner.browsers": ["chrome"],
+  "testcafeTestRunner.configFile": "./client/.testcaferc.json"
+}
