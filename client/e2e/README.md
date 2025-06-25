@@ -1,0 +1,1 @@
+# E2E Testing Setup for Pokémon Battle App
