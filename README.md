@@ -183,8 +183,7 @@ The E2E tests use TestCafe to simulate real user interactions and verify the com
 **🖥️ Visual Mode (Chrome Browser) - Recommended for Development**
 
 ```bash
-cd client
-npm run test:e2e:chrome
+cd client && npm install && npm run test:e2e:chrome
 ```
 
 This opens a visible Chrome browser where you can watch the test:
@@ -197,8 +196,7 @@ This opens a visible Chrome browser where you can watch the test:
 **🤖 Headless Mode (Serverless) - Fast Execution**
 
 ```bash
-cd client
-npm run test:e2e:headless
+cd client && npm install && npm run test:e2e:headless
 ```
 
 This runs the test without opening a browser window:
@@ -272,6 +270,15 @@ npm run test:e2e
 ✅ Reset functionality working correctly
 🎊 E2E Journey Complete! All tests passed successfully! 🎊
 ```
+
+## E2E Test Demonstration
+
+_Complete E2E test showing Pokemon selection, battle execution, and results_
+
+> 📹 **Want to see the full quality video?** [Download here](https://github.com/Hussain-Mushtaque/Hussain-Evinova-test/raw/main/client/public/e2e-test.mov)
+
+
+
 
 ## Implementation Highlights
 
